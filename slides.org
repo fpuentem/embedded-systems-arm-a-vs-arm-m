@@ -2,7 +2,7 @@
 #+AUTHOR: Fabricio Puente M., Software Engineer
 #+DATE: <2025-06-23 Mon>
 
-* Setting the Stage - Embedded Systems and ARM Fundamentals
+* Embedded Systems and ARM Fundamentals
 ** What is an Embedded System?
 - Definition: A computer system with a dedicated function within a
   larger mechanical or electrical system.
@@ -177,7 +177,6 @@
   motor control on a drone).
 #+ATTR_HTML: :width 450px
   [[file:./images/flowchart.png]]
-
 
 * Live Demonstrations
 ** Demo 1: Deterministic Timing & Jitter
