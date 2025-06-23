@@ -256,7 +256,7 @@
     - *Concept:* ARM-M's "Hard Real-time" vs. ARM-A's "Soft Real-time" due to OS scheduling.
     - *Task:* Rapidly toggle a GPIO pin.
     - *ARM-M Code (Snippet):* Minimal C code directly accessing GPIO registers or using simple HAL timer interrupt.
-    - *ARM-A Code (Snippet):* Python `RPi.GPIO` loop or C `sysfs` manipulation.
+    - *ARM-A Code (Snippet):* Python ~RPi.GPIO~ loop or C ~sysfs~ manipulation.
     - *Expected Outcome:*
         - ARM-M: Clean, stable square wave on oscilloscope (minimal jitter).
         - ARM-A: Jittery, inconsistent square wave (more pronounced with background load).
